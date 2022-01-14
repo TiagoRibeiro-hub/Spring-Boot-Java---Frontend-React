@@ -9,6 +9,16 @@
             "mainClass": "com.devSR.dsmovie.DsmovieApplication",
             "projectName": "dsmovi",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DsmovieApplication<dsmovie>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.devSR.dsmovie.DsmovieApplication",
+            "projectName": "dsmovie",
+            "args": ""
         }
     ]
 }

@@ -2,16 +2,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-DsmovieApplication<dsmovi>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "mainClass": "com.devSR.dsmovie.DsmovieApplication",
-            "projectName": "dsmovi",
-            "args": ""
-        },
-        {
-            "type": "java",
             "name": "Spring Boot-DsmovieApplication<dsmovie>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -20,7 +20,7 @@ function Listing() {
         first: true,
         numberOfElements: 0,
         empty: true,
-    });
+    }); // { MoviePage } from "types/movie";
 
     useEffect(() => {
 

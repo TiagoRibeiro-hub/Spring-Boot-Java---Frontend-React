@@ -10,7 +10,7 @@ type Props = {
 }
 function FormCard({ movieId } : Props){
 
-    const [movie, setMovie] = useState<Movie>();
+    const [movie, setMovie] = useState<Movie>(); // {Movie} from "types/movie";
 
     useEffect(() => {
         axios.get(`${BASE_URL}/movies/${movieId}`)

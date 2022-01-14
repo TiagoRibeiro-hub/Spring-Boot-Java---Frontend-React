@@ -4,7 +4,7 @@ header {
     display: flex;
     align-items: center;
   }
-  
+
   .dsmovie-nav-content {
     display: flex;
     align-items: center;
@@ -15,22 +15,27 @@ header {
   .dsmovie-nav-content h1 {
     font-size: 24px;
     margin: 0;
-    font-weight: 700;
+    font-weight: 700;  
+    color: #fff;
+  } 
+
+  .dsmovie-nav-content h1:hover {
+    color: rgb(81, 154, 238);
   }
-  
+
   .dsmovie-contact-container {
     display: flex;
     align-items: center;
     color: #fff;
-    text-decoration: none;
   }
   
   .dsmovie-contact-link {
     margin: 0 0 0 10px;
     font-size: 12px;
     font-weight: bolder;
+    text-decoration: underline;
   }
   
   .dsmovie-contact-container:hover{
-    color: rgb(61, 252, 252);
+    color: rgb(81, 154, 238);
   }
